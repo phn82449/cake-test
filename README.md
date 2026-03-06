@@ -13,8 +13,8 @@ After a successful transfer, the source file is automatically deleted. The proje
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/phn82449/cake-test.git
+   cd cake-test
    ```
 
 2. **Start the Infrastructure:**
