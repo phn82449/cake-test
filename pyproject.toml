@@ -1,0 +1,10 @@
+[project]
+name = "cake"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow>=3.1.7",
+    "paramiko>=4.0.0",
+]
