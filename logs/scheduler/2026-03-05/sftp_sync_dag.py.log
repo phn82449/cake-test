@@ -1,0 +1,1022 @@
+[2026-03-05T08:20:11.130+0000] {processor.py:161} INFO - Started process (PID=56) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:20:11.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:20:11.131+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:20:11.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:20:11.139+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:20:11.138+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/sftp_sync_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/sftp_sync_dag.py", line 7, in <module>
+    from src.operators.extensible_transfer import ExtensibleTransferOperator
+ModuleNotFoundError: No module named 'src'
+[2026-03-05T08:20:11.140+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:20:11.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.022 seconds
+[2026-03-05T08:20:41.356+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:20:41.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:20:41.361+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:20:41.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:20:41.367+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:20:41.366+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/sftp_sync_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/sftp_sync_dag.py", line 7, in <module>
+    from src.operators.extensible_transfer import ExtensibleTransferOperator
+ModuleNotFoundError: No module named 'src'
+[2026-03-05T08:20:41.368+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:20:41.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.036 seconds
+[2026-03-05T08:21:11.551+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:21:11.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:21:11.554+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:21:11.553+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:21:11.557+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:21:11.557+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/sftp_sync_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/sftp_sync_dag.py", line 7, in <module>
+    from src.operators.extensible_transfer import ExtensibleTransferOperator
+ModuleNotFoundError: No module named 'src'
+[2026-03-05T08:21:11.558+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:21:11.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.024 seconds
+[2026-03-05T08:21:50.195+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:21:50.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:21:50.199+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:21:50.199+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:21:50.311+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:21:50.325+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:21:50.325+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:21:50.337+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:21:50.337+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:21:50.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.154 seconds
+[2026-03-05T08:22:20.434+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:22:20.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:22:20.438+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:22:20.438+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:22:20.485+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:22:20.585+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:22:20.585+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:22:20.591+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:22:20.591+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:22:20.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.171 seconds
+[2026-03-05T08:22:50.838+0000] {processor.py:161} INFO - Started process (PID=100) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:22:50.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:22:50.840+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:22:50.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:22:50.873+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:22:50.888+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:22:50.888+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:22:50.897+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:22:50.897+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:22:50.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.072 seconds
+[2026-03-05T08:23:21.127+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:23:21.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:23:21.130+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:23:21.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:23:21.155+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:23:21.166+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:23:21.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:23:21.174+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:23:21.173+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:23:21.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.058 seconds
+[2026-03-05T08:23:51.428+0000] {processor.py:161} INFO - Started process (PID=114) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:23:51.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:23:51.430+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:23:51.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:23:51.456+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:23:51.469+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:23:51.469+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:23:51.478+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:23:51.478+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:23:51.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.062 seconds
+[2026-03-05T08:35:09.229+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:35:09.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:35:09.232+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:35:09.231+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:35:09.264+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:35:09.283+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:35:09.283+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:35:09.296+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:35:09.295+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:35:09.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.079 seconds
+[2026-03-05T08:35:39.477+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:35:39.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:35:39.480+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:35:39.480+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:35:39.508+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:35:39.520+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:35:39.520+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:35:39.528+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:35:39.528+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:35:39.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.064 seconds
+[2026-03-05T08:36:09.759+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:36:09.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:36:09.761+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:36:09.761+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:36:09.797+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:36:09.811+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:36:09.811+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:36:09.821+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:36:09.821+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:36:09.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.074 seconds
+[2026-03-05T08:36:39.995+0000] {processor.py:161} INFO - Started process (PID=136) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:36:39.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:36:39.997+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:36:39.997+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:36:40.021+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:36:40.034+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:36:40.034+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:36:40.043+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:36:40.043+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:36:40.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T08:37:10.288+0000] {processor.py:161} INFO - Started process (PID=143) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:37:10.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:37:10.290+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:37:10.290+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:37:10.317+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:37:10.331+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:37:10.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:37:10.339+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:37:10.339+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:37:10.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.064 seconds
+[2026-03-05T08:37:40.565+0000] {processor.py:161} INFO - Started process (PID=150) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:37:40.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:37:40.568+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:37:40.568+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:37:40.593+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:37:40.605+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:37:40.605+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:37:40.613+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:37:40.613+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:37:40.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T08:38:10.854+0000] {processor.py:161} INFO - Started process (PID=157) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:38:10.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:38:10.858+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:38:10.857+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:38:10.895+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:38:10.908+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:38:10.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:38:10.918+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:38:10.918+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:38:10.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.078 seconds
+[2026-03-05T08:38:41.085+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:38:41.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:38:41.088+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:38:41.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:38:41.117+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:38:41.130+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:38:41.129+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:38:41.138+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:38:41.138+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:38:41.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.065 seconds
+[2026-03-05T08:39:11.382+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:39:11.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:39:11.385+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:39:11.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:39:11.420+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:39:11.435+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:39:11.435+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:39:11.445+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:39:11.445+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:39:11.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.076 seconds
+[2026-03-05T08:39:41.608+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:39:41.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:39:41.609+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:39:41.609+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:39:41.632+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:39:41.644+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:39:41.644+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:39:41.652+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:39:41.652+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:39:41.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.054 seconds
+[2026-03-05T08:42:50.446+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:42:50.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:42:50.448+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:42:50.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:42:50.492+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:42:50.508+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:42:50.508+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:42:50.521+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:42:50.521+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:42:50.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.091 seconds
+[2026-03-05T08:43:20.660+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:43:20.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:43:20.663+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:43:20.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:43:20.693+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:43:20.704+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:43:20.704+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:43:20.712+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:43:20.712+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:43:20.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.064 seconds
+[2026-03-05T08:43:50.923+0000] {processor.py:161} INFO - Started process (PID=199) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:43:50.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:43:50.925+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:43:50.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:43:50.950+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:43:50.962+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:43:50.962+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:43:50.970+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:43:50.970+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-04 00:00:00+00:00, run_after=2026-03-05 00:00:00+00:00
+[2026-03-05T08:43:50.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.058 seconds
+[2026-03-05T08:44:21.146+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:44:21.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:44:21.149+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:44:21.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:44:21.186+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:44:21.202+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:44:21.201+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:44:21.211+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:44:21.211+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:44:21.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.081 seconds
+[2026-03-05T08:44:51.366+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:44:51.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:44:51.367+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:44:51.367+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:44:51.395+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:44:51.411+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:44:51.410+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:44:51.421+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:44:51.421+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:44:51.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.068 seconds
+[2026-03-05T08:45:21.644+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:45:21.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:45:21.646+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:45:21.646+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:45:21.672+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:45:21.683+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:45:21.683+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:45:21.691+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:45:21.691+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:45:21.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.059 seconds
+[2026-03-05T08:45:51.916+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:45:51.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:45:51.919+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:45:51.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:45:51.951+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:45:51.965+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:45:51.965+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:45:51.974+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:45:51.974+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:45:51.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.071 seconds
+[2026-03-05T08:46:22.125+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:46:22.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:46:22.129+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:46:22.128+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:46:22.167+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:46:22.183+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:46:22.182+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:46:22.192+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:46:22.192+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:46:22.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.084 seconds
+[2026-03-05T08:46:52.396+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:46:52.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:46:52.399+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:46:52.399+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:46:52.430+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:46:52.443+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:46:52.443+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:46:52.452+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:46:52.452+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:46:52.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.069 seconds
+[2026-03-05T08:47:22.646+0000] {processor.py:161} INFO - Started process (PID=296) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:47:22.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:47:22.650+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:47:22.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:47:22.682+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:47:22.696+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:47:22.696+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:47:22.704+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:47:22.704+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:47:22.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.072 seconds
+[2026-03-05T08:47:52.910+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:47:52.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:47:52.912+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:47:52.912+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:47:52.939+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:47:52.953+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:47:52.953+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:47:52.962+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:47:52.962+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:47:52.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.062 seconds
+[2026-03-05T08:48:23.182+0000] {processor.py:161} INFO - Started process (PID=310) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:48:23.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:48:23.184+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:48:23.184+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:48:23.214+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:48:23.228+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:48:23.228+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:48:23.238+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:48:23.238+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:48:23.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.068 seconds
+[2026-03-05T08:48:53.431+0000] {processor.py:161} INFO - Started process (PID=334) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:48:53.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:48:53.433+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:48:53.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:48:53.461+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:48:53.474+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:48:53.473+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:48:53.482+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:48:53.482+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:48:53.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.063 seconds
+[2026-03-05T08:49:23.698+0000] {processor.py:161} INFO - Started process (PID=341) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:49:23.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:49:23.701+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:49:23.701+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:49:23.735+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:49:23.749+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:49:23.749+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:49:23.759+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:49:23.759+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:49:23.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.076 seconds
+[2026-03-05T08:49:53.932+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:49:53.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:49:53.933+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:49:53.933+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:49:53.962+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:49:53.976+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:49:53.976+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:49:53.987+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:49:53.987+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:49:53.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.067 seconds
+[2026-03-05T08:50:24.210+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:50:24.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:50:24.213+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:50:24.212+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:50:24.240+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:50:24.253+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:50:24.253+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:50:24.262+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:50:24.261+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:50:24.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.065 seconds
+[2026-03-05T08:50:54.450+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:50:54.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:50:54.454+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:50:54.453+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:50:54.497+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:50:54.513+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:50:54.513+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:50:54.523+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:50:54.523+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:50:54.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.087 seconds
+[2026-03-05T08:51:24.711+0000] {processor.py:161} INFO - Started process (PID=369) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:51:24.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:51:24.713+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:51:24.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:51:24.737+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:51:24.749+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:51:24.749+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:51:24.757+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:51:24.756+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:51:24.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.056 seconds
+[2026-03-05T08:51:54.951+0000] {processor.py:161} INFO - Started process (PID=376) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:51:54.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T08:51:54.954+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:51:54.953+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:51:54.982+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T08:51:54.993+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:51:54.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T08:51:55.002+0000] {logging_mixin.py:188} INFO - [2026-03-05T08:51:55.002+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T08:51:55.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.065 seconds
+[2026-03-05T09:01:10.170+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:01:10.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:01:10.172+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:01:10.172+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:01:10.212+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:01:10.230+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:01:10.230+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:01:10.241+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:01:10.241+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:01:10.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.085 seconds
+[2026-03-05T09:01:40.407+0000] {processor.py:161} INFO - Started process (PID=390) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:01:40.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:01:40.409+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:01:40.409+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:01:40.439+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:01:40.453+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:01:40.453+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:01:40.464+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:01:40.464+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:01:40.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.069 seconds
+[2026-03-05T09:02:10.683+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:02:10.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:02:10.684+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:02:10.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:02:10.710+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:02:10.724+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:02:10.724+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:02:10.733+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:02:10.733+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:02:10.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.062 seconds
+[2026-03-05T09:02:40.924+0000] {processor.py:161} INFO - Started process (PID=404) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:02:40.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:02:40.926+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:02:40.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:02:40.948+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:02:40.963+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:02:40.962+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:02:40.971+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:02:40.971+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:02:40.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.059 seconds
+[2026-03-05T09:03:11.193+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:03:11.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:03:11.197+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:03:11.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:03:11.237+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:03:11.254+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:03:11.254+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:03:11.267+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:03:11.266+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:03:11.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.088 seconds
+[2026-03-05T09:03:41.427+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:03:41.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:03:41.429+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:03:41.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:03:41.453+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:03:41.465+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:03:41.465+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:03:41.475+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:03:41.475+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:03:41.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T09:04:11.711+0000] {processor.py:161} INFO - Started process (PID=426) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:04:11.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:04:11.714+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:04:11.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:04:11.739+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:04:11.750+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:04:11.750+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:04:11.759+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:04:11.759+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:04:11.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.061 seconds
+[2026-03-05T09:04:41.946+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:04:41.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:04:41.948+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:04:41.947+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:04:41.967+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:04:41.978+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:04:41.978+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:04:41.986+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:04:41.986+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:04:41.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.049 seconds
+[2026-03-05T09:05:12.241+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:05:12.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:05:12.243+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:05:12.243+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:05:12.269+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:05:12.282+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:05:12.282+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:05:12.289+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:05:12.289+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:05:12.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.061 seconds
+[2026-03-05T09:05:42.489+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:05:42.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:05:42.493+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:05:42.493+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:05:42.523+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:05:42.535+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:05:42.535+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:05:42.543+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:05:42.543+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:05:42.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.068 seconds
+[2026-03-05T09:06:12.779+0000] {processor.py:161} INFO - Started process (PID=455) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:06:12.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:06:12.781+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:06:12.781+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:06:12.807+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:06:12.819+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:06:12.818+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:06:12.827+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:06:12.827+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:06:12.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T09:06:43.032+0000] {processor.py:161} INFO - Started process (PID=463) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:06:43.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:06:43.034+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:06:43.034+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:06:43.059+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:06:43.071+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:06:43.071+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:06:43.080+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:06:43.080+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:06:43.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.059 seconds
+[2026-03-05T09:07:13.282+0000] {processor.py:161} INFO - Started process (PID=470) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:07:13.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:07:13.285+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:07:13.284+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:07:13.312+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:07:13.324+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:07:13.324+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:07:13.333+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:07:13.333+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:07:13.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.063 seconds
+[2026-03-05T09:07:43.503+0000] {processor.py:161} INFO - Started process (PID=477) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:07:43.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:07:43.508+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:07:43.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:07:43.536+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:07:43.549+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:07:43.549+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:07:43.558+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:07:43.558+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:07:43.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.069 seconds
+[2026-03-05T09:08:13.748+0000] {processor.py:161} INFO - Started process (PID=484) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:08:13.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:08:13.750+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:08:13.750+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:08:13.774+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:08:13.787+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:08:13.787+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:08:13.795+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:08:13.795+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:08:13.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.057 seconds
+[2026-03-05T09:08:43.981+0000] {processor.py:161} INFO - Started process (PID=492) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:08:43.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:08:43.983+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:08:43.983+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:08:44.010+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:08:44.023+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:08:44.023+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:08:44.032+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:08:44.032+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:08:44.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.064 seconds
+[2026-03-05T09:09:14.218+0000] {processor.py:161} INFO - Started process (PID=499) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:09:14.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:09:14.222+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:09:14.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:09:14.255+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:09:14.268+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:09:14.268+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:09:14.279+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:09:14.279+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:09:14.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.074 seconds
+[2026-03-05T09:09:44.448+0000] {processor.py:161} INFO - Started process (PID=505) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:09:44.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:09:44.450+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:09:44.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:09:44.476+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:09:44.489+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:09:44.489+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:09:44.500+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:09:44.500+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:09:44.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.064 seconds
+[2026-03-05T09:10:14.678+0000] {processor.py:161} INFO - Started process (PID=512) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:10:14.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:10:14.680+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:10:14.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:10:14.708+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:10:14.720+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:10:14.720+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:10:14.728+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:10:14.728+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:10:14.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.062 seconds
+[2026-03-05T09:10:44.898+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:10:44.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:10:44.900+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:10:44.900+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:10:44.927+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:10:44.939+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:10:44.939+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:10:44.948+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:10:44.948+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:10:44.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.062 seconds
+[2026-03-05T09:11:15.156+0000] {processor.py:161} INFO - Started process (PID=526) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:11:15.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:11:15.158+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:11:15.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:11:15.187+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:11:15.200+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:11:15.200+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:11:15.209+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:11:15.209+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:11:15.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.064 seconds
+[2026-03-05T09:11:45.372+0000] {processor.py:161} INFO - Started process (PID=533) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:11:45.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:11:45.375+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:11:45.374+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:11:45.404+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:11:45.418+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:11:45.417+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:11:45.428+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:11:45.428+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:11:45.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.069 seconds
+[2026-03-05T09:12:15.650+0000] {processor.py:161} INFO - Started process (PID=540) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:12:15.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:12:15.653+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:12:15.653+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:12:15.704+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:12:15.723+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:12:15.723+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:12:15.739+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:12:15.738+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:12:15.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.104 seconds
+[2026-03-05T09:12:45.908+0000] {processor.py:161} INFO - Started process (PID=547) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:12:45.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:12:45.911+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:12:45.911+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:12:45.943+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:12:45.954+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:12:45.954+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:12:45.962+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:12:45.962+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:12:45.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.070 seconds
+[2026-03-05T09:13:16.222+0000] {processor.py:161} INFO - Started process (PID=554) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:13:16.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:13:16.224+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:13:16.224+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:13:16.248+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:13:16.261+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:13:16.260+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:13:16.269+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:13:16.269+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:13:16.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.058 seconds
+[2026-03-05T09:13:46.477+0000] {processor.py:161} INFO - Started process (PID=561) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:13:46.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:13:46.479+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:13:46.479+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:13:46.506+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:13:46.518+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:13:46.518+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:13:46.526+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:13:46.526+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:13:46.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T09:14:16.746+0000] {processor.py:161} INFO - Started process (PID=568) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:14:16.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:14:16.748+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:14:16.748+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:14:16.770+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:14:16.781+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:14:16.781+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:14:16.789+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:14:16.789+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:14:16.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.052 seconds
+[2026-03-05T09:14:46.989+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:14:46.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:14:46.990+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:14:46.990+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:14:47.013+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:14:47.024+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:14:47.024+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:14:47.032+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:14:47.032+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:14:47.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.053 seconds
+[2026-03-05T09:15:17.277+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:15:17.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:15:17.279+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:15:17.279+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:15:17.305+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:15:17.316+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:15:17.316+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:15:17.324+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:15:17.324+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:15:17.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.059 seconds
+[2026-03-05T09:15:47.512+0000] {processor.py:161} INFO - Started process (PID=589) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:15:47.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:15:47.515+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:15:47.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:15:47.542+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:15:47.554+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:15:47.554+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:15:47.562+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:15:47.562+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:15:47.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.064 seconds
+[2026-03-05T09:16:17.784+0000] {processor.py:161} INFO - Started process (PID=596) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:16:17.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:16:17.787+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:16:17.787+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:16:17.824+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:16:17.838+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:16:17.838+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:16:17.848+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:16:17.848+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:16:17.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.076 seconds
+[2026-03-05T09:16:48.089+0000] {processor.py:161} INFO - Started process (PID=603) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:16:48.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:16:48.092+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:16:48.091+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:16:48.120+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:16:48.132+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:16:48.132+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:16:48.140+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:16:48.140+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:16:48.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.064 seconds
+[2026-03-05T09:17:18.368+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:17:18.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:17:18.371+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:17:18.370+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:17:18.396+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:17:18.408+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:17:18.407+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:17:18.415+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:17:18.415+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:17:18.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.059 seconds
+[2026-03-05T09:17:48.660+0000] {processor.py:161} INFO - Started process (PID=617) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:17:48.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:17:48.663+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:17:48.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:17:48.692+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:17:48.704+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:17:48.704+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:17:48.712+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:17:48.712+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:17:48.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.063 seconds
+[2026-03-05T09:18:18.902+0000] {processor.py:161} INFO - Started process (PID=624) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:18:18.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:18:18.904+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:18:18.904+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:18:18.929+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:18:18.941+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:18:18.941+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:18:18.949+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:18:18.949+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:18:18.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.059 seconds
+[2026-03-05T09:18:49.165+0000] {processor.py:161} INFO - Started process (PID=631) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:18:49.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:18:49.168+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:18:49.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:18:49.199+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:18:49.212+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:18:49.212+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:18:49.220+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:18:49.220+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:18:49.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.070 seconds
+[2026-03-05T09:19:19.421+0000] {processor.py:161} INFO - Started process (PID=638) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:19:19.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:19:19.423+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:19:19.423+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:19:19.449+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:19:19.461+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:19:19.461+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:19:19.470+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:19:19.470+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:19:19.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T09:19:49.694+0000] {processor.py:161} INFO - Started process (PID=645) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:19:49.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:19:49.697+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:19:49.697+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:19:49.723+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:19:49.740+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:19:49.739+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:19:49.748+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:19:49.748+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:19:49.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.065 seconds
+[2026-03-05T09:20:19.965+0000] {processor.py:161} INFO - Started process (PID=658) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:20:19.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:20:19.966+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:20:19.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:20:19.990+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:20:20.002+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:20:20.002+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:20:20.009+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:20:20.009+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:20:20.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.054 seconds
+[2026-03-05T09:20:50.221+0000] {processor.py:161} INFO - Started process (PID=665) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:20:50.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:20:50.224+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:20:50.223+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:20:50.249+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:20:50.260+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:20:50.260+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:20:50.268+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:20:50.268+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:20:50.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.058 seconds
+[2026-03-05T09:21:20.498+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:21:20.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:21:20.501+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:21:20.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:21:20.525+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:21:20.536+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:21:20.536+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:21:20.544+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:21:20.544+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:21:20.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.057 seconds
+[2026-03-05T09:21:50.753+0000] {processor.py:161} INFO - Started process (PID=678) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:21:50.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:21:50.755+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:21:50.755+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:21:50.780+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:21:50.792+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:21:50.792+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:21:50.800+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:21:50.800+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:21:50.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T09:22:20.996+0000] {processor.py:161} INFO - Started process (PID=685) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:22:20.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:22:20.999+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:22:20.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:22:21.022+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:22:21.034+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:22:21.034+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:22:21.043+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:22:21.043+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:22:21.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.058 seconds
+[2026-03-05T09:22:51.222+0000] {processor.py:161} INFO - Started process (PID=692) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:22:51.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:22:51.225+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:22:51.225+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:22:51.253+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:22:51.265+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:22:51.265+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:22:51.273+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:22:51.273+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:22:51.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.063 seconds
+[2026-03-05T09:23:21.468+0000] {processor.py:161} INFO - Started process (PID=699) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:23:21.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:23:21.471+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:23:21.471+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:23:21.496+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:23:21.508+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:23:21.508+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:23:21.515+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:23:21.515+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:23:21.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.059 seconds
+[2026-03-05T09:23:51.707+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:23:51.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:23:51.709+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:23:51.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:23:51.734+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:23:51.745+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:23:51.745+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:23:51.753+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:23:51.753+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:23:51.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.057 seconds
+[2026-03-05T09:24:21.932+0000] {processor.py:161} INFO - Started process (PID=713) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:24:21.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:24:21.934+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:24:21.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:24:21.959+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:24:21.971+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:24:21.971+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:24:21.978+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:24:21.978+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:24:21.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.058 seconds
+[2026-03-05T09:24:52.164+0000] {processor.py:161} INFO - Started process (PID=720) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:24:52.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:24:52.166+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:24:52.166+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:24:52.191+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:24:52.203+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:24:52.202+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:24:52.210+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:24:52.210+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:24:52.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.059 seconds
+[2026-03-05T09:25:22.414+0000] {processor.py:161} INFO - Started process (PID=727) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:25:22.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:25:22.416+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:25:22.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:25:22.441+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:25:22.453+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:25:22.453+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:25:22.461+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:25:22.461+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:25:22.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.059 seconds
+[2026-03-05T09:25:52.660+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:25:52.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:25:52.662+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:25:52.661+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:25:52.681+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:25:52.693+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:25:52.693+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:25:52.700+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:25:52.700+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:25:52.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.050 seconds
+[2026-03-05T09:26:22.895+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:26:22.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:26:22.898+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:26:22.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:26:22.922+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:26:22.934+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:26:22.934+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:26:22.942+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:26:22.942+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:26:22.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.058 seconds
+[2026-03-05T09:26:53.113+0000] {processor.py:161} INFO - Started process (PID=748) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:26:53.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:26:53.115+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:26:53.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:26:53.138+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:26:53.149+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:26:53.149+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:26:53.159+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:26:53.159+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:26:53.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.056 seconds
+[2026-03-05T09:27:23.341+0000] {processor.py:161} INFO - Started process (PID=755) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:27:23.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:27:23.344+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:27:23.343+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:27:23.368+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:27:23.380+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:27:23.380+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:27:23.388+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:27:23.388+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:27:23.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.057 seconds
+[2026-03-05T09:27:53.546+0000] {processor.py:161} INFO - Started process (PID=761) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:27:53.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:27:53.547+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:27:53.547+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:27:53.564+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:27:53.575+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:27:53.575+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:27:53.583+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:27:53.583+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:27:53.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.046 seconds
+[2026-03-05T09:28:23.793+0000] {processor.py:161} INFO - Started process (PID=768) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:28:23.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:28:23.795+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:28:23.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:28:23.820+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:28:23.831+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:28:23.831+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:28:23.840+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:28:23.840+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:28:23.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.058 seconds
+[2026-03-05T09:28:54.007+0000] {processor.py:161} INFO - Started process (PID=775) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:28:54.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:28:54.009+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:28:54.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:28:54.035+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:28:54.048+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:28:54.047+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:28:54.056+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:28:54.056+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:28:54.062+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.061 seconds
+[2026-03-05T09:29:24.264+0000] {processor.py:161} INFO - Started process (PID=782) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:29:24.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:29:24.266+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:29:24.266+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:29:24.295+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:29:24.310+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:29:24.310+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:29:24.319+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:29:24.319+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:29:24.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.068 seconds
+[2026-03-05T09:29:54.493+0000] {processor.py:161} INFO - Started process (PID=789) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:29:54.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:29:54.496+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:29:54.495+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:29:54.536+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:29:54.550+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:29:54.550+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:29:54.559+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:29:54.559+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:29:54.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.081 seconds
+[2026-03-05T09:30:24.764+0000] {processor.py:161} INFO - Started process (PID=796) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:30:24.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:30:24.766+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:30:24.766+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:30:24.792+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:30:24.806+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:30:24.806+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:30:24.816+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:30:24.816+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:30:24.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.064 seconds
+[2026-03-05T09:30:54.963+0000] {processor.py:161} INFO - Started process (PID=803) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:30:54.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:30:54.965+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:30:54.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:30:54.994+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:30:55.006+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:30:55.006+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:30:55.015+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:30:55.015+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:30:55.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.063 seconds
+[2026-03-05T09:31:25.185+0000] {processor.py:161} INFO - Started process (PID=810) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:31:25.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:31:25.186+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:31:25.186+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:31:25.210+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:31:25.222+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:31:25.222+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:31:25.231+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:31:25.231+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:31:25.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.055 seconds
+[2026-03-05T09:31:55.473+0000] {processor.py:161} INFO - Started process (PID=834) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:31:55.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:31:55.476+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:31:55.476+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:31:55.513+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:31:55.529+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:31:55.529+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:31:55.539+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:31:55.539+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:31:55.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.081 seconds
+[2026-03-05T09:32:25.738+0000] {processor.py:161} INFO - Started process (PID=841) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:32:25.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:32:25.741+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:32:25.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:32:25.773+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:32:25.787+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:32:25.787+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:32:25.795+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:32:25.795+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:32:25.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.071 seconds
+[2026-03-05T09:32:55.987+0000] {processor.py:161} INFO - Started process (PID=848) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:32:55.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:32:55.989+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:32:55.989+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:32:56.013+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:32:56.025+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:32:56.024+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:32:56.032+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:32:56.032+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:32:56.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.056 seconds
+[2026-03-05T09:33:26.208+0000] {processor.py:161} INFO - Started process (PID=855) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:33:26.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:33:26.211+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:33:26.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:33:26.235+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:33:26.246+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:33:26.246+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:33:26.254+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:33:26.254+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:33:26.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.057 seconds
+[2026-03-05T09:33:56.510+0000] {processor.py:161} INFO - Started process (PID=862) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:33:56.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:33:56.513+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:33:56.512+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:33:56.543+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:33:56.555+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:33:56.555+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:33:56.563+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:33:56.563+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:33:56.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.066 seconds
+[2026-03-05T09:34:26.788+0000] {processor.py:161} INFO - Started process (PID=869) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:34:26.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:34:26.791+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:34:26.791+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:34:26.819+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:34:26.831+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:34:26.831+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:34:26.840+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:34:26.840+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:34:26.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.063 seconds
+[2026-03-05T09:34:57.050+0000] {processor.py:161} INFO - Started process (PID=876) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:34:57.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:34:57.051+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:34:57.051+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:34:57.076+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:34:57.088+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:34:57.088+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:34:57.096+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:34:57.096+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:34:57.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.058 seconds
+[2026-03-05T09:35:27.334+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:35:27.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:35:27.337+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:35:27.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:35:27.373+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:35:27.387+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:35:27.387+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:35:27.396+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:35:27.396+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:35:27.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.075 seconds
+[2026-03-05T09:35:57.603+0000] {processor.py:161} INFO - Started process (PID=890) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:35:57.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:35:57.606+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:35:57.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:35:57.649+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:35:57.666+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:35:57.666+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:35:57.677+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:35:57.677+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:35:57.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.089 seconds
+[2026-03-05T09:36:27.875+0000] {processor.py:161} INFO - Started process (PID=897) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:36:27.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:36:27.878+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:36:27.878+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:36:27.905+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:36:27.917+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:36:27.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:36:27.926+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:36:27.926+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:36:27.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.069 seconds
+[2026-03-05T09:36:58.105+0000] {processor.py:161} INFO - Started process (PID=904) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:36:58.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:36:58.108+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:36:58.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:36:58.133+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:36:58.145+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:36:58.144+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:36:58.153+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:36:58.153+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:36:58.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.058 seconds
+[2026-03-05T09:37:28.387+0000] {processor.py:161} INFO - Started process (PID=911) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:37:28.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:37:28.390+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:37:28.389+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:37:28.414+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:37:28.426+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:37:28.426+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:37:28.435+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:37:28.435+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:37:28.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T09:37:58.797+0000] {processor.py:161} INFO - Started process (PID=918) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:37:58.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:37:58.802+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:37:58.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:37:58.849+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:37:58.866+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:37:58.866+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:37:58.876+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:37:58.876+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:37:58.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.106 seconds
+[2026-03-05T09:40:55.971+0000] {processor.py:161} INFO - Started process (PID=919) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:40:55.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:40:55.973+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:40:55.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:40:55.999+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:40:56.011+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:40:56.011+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:40:56.019+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:40:56.019+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:40:56.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T09:41:26.255+0000] {processor.py:161} INFO - Started process (PID=926) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:41:26.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:41:26.258+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:41:26.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:41:26.283+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:41:26.295+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:41:26.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:41:26.303+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:41:26.303+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:41:26.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.059 seconds
+[2026-03-05T09:41:56.469+0000] {processor.py:161} INFO - Started process (PID=933) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:41:56.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:41:56.471+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:41:56.471+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:41:56.494+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:41:56.505+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:41:56.505+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:41:56.513+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:41:56.513+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:41:56.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.055 seconds
+[2026-03-05T09:42:26.697+0000] {processor.py:161} INFO - Started process (PID=940) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:42:26.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:42:26.698+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:42:26.698+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:42:26.716+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:42:26.728+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:42:26.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:42:26.735+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:42:26.735+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:42:26.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.047 seconds
+[2026-03-05T09:42:56.909+0000] {processor.py:161} INFO - Started process (PID=947) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:42:56.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:42:56.912+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:42:56.911+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:42:56.936+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:42:56.948+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:42:56.947+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:42:56.956+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:42:56.956+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:42:56.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.057 seconds
+[2026-03-05T09:43:27.141+0000] {processor.py:161} INFO - Started process (PID=954) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:43:27.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:43:27.143+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:43:27.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:43:27.173+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:43:27.188+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:43:27.187+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:43:27.197+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:43:27.197+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:43:27.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.068 seconds
+[2026-03-05T09:43:57.383+0000] {processor.py:161} INFO - Started process (PID=961) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:43:57.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:43:57.386+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:43:57.386+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:43:57.413+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:43:57.425+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:43:57.425+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:43:57.433+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:43:57.433+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:43:57.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.063 seconds
+[2026-03-05T09:44:27.615+0000] {processor.py:161} INFO - Started process (PID=968) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:44:27.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:44:27.619+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:44:27.619+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:44:27.658+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:44:27.675+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:44:27.675+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:44:27.684+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:44:27.684+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:44:27.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.084 seconds
+[2026-03-05T09:44:57.857+0000] {processor.py:161} INFO - Started process (PID=975) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:44:57.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:44:57.862+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:44:57.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:44:57.905+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:44:57.919+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:44:57.919+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:44:57.930+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:44:57.930+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:44:57.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.087 seconds
+[2026-03-05T09:45:28.111+0000] {processor.py:161} INFO - Started process (PID=982) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:45:28.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:45:28.113+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:45:28.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:45:28.139+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:45:28.152+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:45:28.152+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:45:28.160+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:45:28.160+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:45:28.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.063 seconds
+[2026-03-05T09:45:58.335+0000] {processor.py:161} INFO - Started process (PID=989) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:45:58.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:45:58.337+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:45:58.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:45:58.361+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:45:58.372+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:45:58.372+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:45:58.380+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:45:58.380+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:45:58.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.057 seconds
+[2026-03-05T09:46:28.578+0000] {processor.py:161} INFO - Started process (PID=996) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:46:28.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:46:28.580+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:46:28.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:46:28.602+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:46:28.614+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:46:28.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:46:28.622+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:46:28.622+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:46:28.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.055 seconds
+[2026-03-05T09:46:58.799+0000] {processor.py:161} INFO - Started process (PID=1003) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:46:58.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:46:58.801+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:46:58.801+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:46:58.827+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:46:58.840+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:46:58.840+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:46:58.849+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:46:58.849+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:46:58.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.061 seconds
+[2026-03-05T09:47:29.049+0000] {processor.py:161} INFO - Started process (PID=1010) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:47:29.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:47:29.053+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:47:29.053+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:47:29.093+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:47:29.111+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:47:29.111+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:47:29.120+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:47:29.120+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:47:29.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.084 seconds
+[2026-03-05T09:47:59.300+0000] {processor.py:161} INFO - Started process (PID=1017) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:47:59.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:47:59.302+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:47:59.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:47:59.333+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:47:59.350+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:47:59.350+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:47:59.360+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:47:59.360+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:47:59.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.073 seconds
+[2026-03-05T09:48:29.591+0000] {processor.py:161} INFO - Started process (PID=1025) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:48:29.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:48:29.592+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:48:29.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:48:29.614+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:48:29.626+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:48:29.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:48:29.634+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:48:29.634+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:48:29.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.053 seconds
+[2026-03-05T09:48:59.842+0000] {processor.py:161} INFO - Started process (PID=1032) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:48:59.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:48:59.845+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:48:59.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:48:59.871+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:48:59.882+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:48:59.882+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:48:59.891+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:48:59.891+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:48:59.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T09:53:18.848+0000] {processor.py:161} INFO - Started process (PID=1039) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:53:18.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:53:18.852+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:53:18.851+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:53:18.889+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:53:18.907+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:53:18.906+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:53:18.917+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:53:18.917+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:53:18.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.081 seconds
+[2026-03-05T09:53:49.085+0000] {processor.py:161} INFO - Started process (PID=1046) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:53:49.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:53:49.087+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:53:49.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:53:49.114+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:53:49.129+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:53:49.129+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:53:49.144+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:53:49.144+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:53:49.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.084 seconds
+[2026-03-05T09:54:19.397+0000] {processor.py:161} INFO - Started process (PID=1053) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:54:19.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:54:19.400+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:54:19.400+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:54:19.429+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:54:19.441+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:54:19.441+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:54:19.449+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:54:19.449+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:54:19.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.064 seconds
+[2026-03-05T09:54:49.660+0000] {processor.py:161} INFO - Started process (PID=1060) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:54:49.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:54:49.664+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:54:49.664+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:54:49.708+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:54:49.725+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:54:49.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:54:49.737+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:54:49.737+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:54:49.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.093 seconds
+[2026-03-05T09:55:19.921+0000] {processor.py:161} INFO - Started process (PID=1067) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:55:19.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:55:19.924+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:55:19.924+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:55:19.963+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:55:19.977+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:55:19.976+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:55:19.987+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:55:19.986+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:55:19.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.079 seconds
+[2026-03-05T09:55:50.228+0000] {processor.py:161} INFO - Started process (PID=1074) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:55:50.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:55:50.231+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:55:50.231+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:55:50.262+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:55:50.275+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:55:50.275+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:55:50.285+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:55:50.285+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:55:50.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.069 seconds
+[2026-03-05T09:56:20.475+0000] {processor.py:161} INFO - Started process (PID=1081) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:56:20.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:56:20.477+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:56:20.477+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:56:20.504+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:56:20.517+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:56:20.517+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:56:20.525+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:56:20.525+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:56:20.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.063 seconds
+[2026-03-05T09:56:50.751+0000] {processor.py:161} INFO - Started process (PID=1088) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:56:50.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:56:50.754+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:56:50.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:56:50.783+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:56:50.795+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:56:50.795+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:56:50.803+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:56:50.803+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:56:50.810+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.069 seconds
+[2026-03-05T09:57:21.044+0000] {processor.py:161} INFO - Started process (PID=1095) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:57:21.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:57:21.047+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:57:21.047+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:57:21.084+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:57:21.100+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:57:21.100+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:57:21.110+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:57:21.110+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:57:21.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.082 seconds
+[2026-03-05T09:57:51.299+0000] {processor.py:161} INFO - Started process (PID=1102) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:57:51.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:57:51.302+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:57:51.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:57:51.346+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:57:51.363+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:57:51.363+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:57:51.373+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:57:51.373+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:57:51.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.087 seconds
+[2026-03-05T09:58:21.628+0000] {processor.py:161} INFO - Started process (PID=1109) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:58:21.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:58:21.630+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:58:21.630+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:58:21.656+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:58:21.668+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:58:21.668+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:58:21.677+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:58:21.677+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:58:21.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.061 seconds
+[2026-03-05T09:58:51.937+0000] {processor.py:161} INFO - Started process (PID=1116) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:58:51.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:58:51.940+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:58:51.939+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:58:51.964+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:58:51.978+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:58:51.978+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:58:51.987+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:58:51.987+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:58:51.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.061 seconds
+[2026-03-05T09:59:22.247+0000] {processor.py:161} INFO - Started process (PID=1123) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:59:22.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T09:59:22.249+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:59:22.249+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:59:22.274+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T09:59:22.287+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:59:22.286+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T09:59:22.295+0000] {logging_mixin.py:188} INFO - [2026-03-05T09:59:22.294+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T09:59:22.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.060 seconds
+[2026-03-05T10:02:38.306+0000] {processor.py:161} INFO - Started process (PID=1130) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T10:02:38.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T10:02:38.311+0000] {logging_mixin.py:188} INFO - [2026-03-05T10:02:38.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T10:02:38.352+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T10:02:38.367+0000] {logging_mixin.py:188} INFO - [2026-03-05T10:02:38.367+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T10:02:38.377+0000] {logging_mixin.py:188} INFO - [2026-03-05T10:02:38.377+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T10:02:38.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.085 seconds
+[2026-03-05T10:03:08.562+0000] {processor.py:161} INFO - Started process (PID=1137) to work on /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T10:03:08.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sftp_sync_dag.py for tasks to queue
+[2026-03-05T10:03:08.564+0000] {logging_mixin.py:188} INFO - [2026-03-05T10:03:08.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T10:03:08.589+0000] {processor.py:840} INFO - DAG(s) 'sftp_to_sftp_sync' retrieved from /opt/airflow/dags/sftp_sync_dag.py
+[2026-03-05T10:03:08.604+0000] {logging_mixin.py:188} INFO - [2026-03-05T10:03:08.604+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-05T10:03:08.614+0000] {logging_mixin.py:188} INFO - [2026-03-05T10:03:08.614+0000] {dag.py:3954} INFO - Setting next_dagrun for sftp_to_sftp_sync to 2026-03-05 00:00:00+00:00, run_after=2026-03-06 00:00:00+00:00
+[2026-03-05T10:03:08.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sftp_sync_dag.py took 0.066 seconds

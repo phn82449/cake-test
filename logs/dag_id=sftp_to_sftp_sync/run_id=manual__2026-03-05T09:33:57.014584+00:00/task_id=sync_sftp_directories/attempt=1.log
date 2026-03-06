@@ -1,0 +1,44 @@
+[2026-03-05T09:33:57.266+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-05T09:33:57.273+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sftp_to_sftp_sync.sync_sftp_directories manual__2026-03-05T09:33:57.014584+00:00 [queued]>
+[2026-03-05T09:33:57.275+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sftp_to_sftp_sync.sync_sftp_directories manual__2026-03-05T09:33:57.014584+00:00 [queued]>
+[2026-03-05T09:33:57.276+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-03-05T09:33:57.279+0000] {taskinstance.py:2330} INFO - Executing <Task(ExtensibleTransferOperator): sync_sftp_directories> on 2026-03-05 09:33:57.014584+00:00
+[2026-03-05T09:33:57.282+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=777) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-03-05T09:33:57.282+0000] {standard_task_runner.py:63} INFO - Started process 778 to run task
+[2026-03-05T09:33:57.283+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sftp_to_sftp_sync', 'sync_sftp_directories', 'manual__2026-03-05T09:33:57.014584+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/sftp_sync_dag.py', '--cfg-path', '/tmp/tmp7indfdxy']
+[2026-03-05T09:33:57.283+0000] {standard_task_runner.py:91} INFO - Job 9: Subtask sync_sftp_directories
+[2026-03-05T09:33:57.303+0000] {task_command.py:426} INFO - Running <TaskInstance: sftp_to_sftp_sync.sync_sftp_directories manual__2026-03-05T09:33:57.014584+00:00 [running]> on host 3ded8d150c22
+[2026-03-05T09:33:57.329+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sftp_to_sftp_sync' AIRFLOW_CTX_TASK_ID='sync_sftp_directories' AIRFLOW_CTX_EXECUTION_DATE='2026-03-05T09:33:57.014584+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-05T09:33:57.014584+00:00'
+[2026-03-05T09:33:57.330+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-05T09:33:57.334+0000] {extensible_transfer.py:68} INFO - Starting transfer from sftp_source_conn to sftp_target_conn
+[2026-03-05T09:33:57.337+0000] {base.py:84} INFO - Using connection ID 'sftp_source_conn' for task execution.
+[2026-03-05T09:33:57.337+0000] {sftp.py:35} INFO - Connecting to SFTP server sftp-source:22 as sourceuser
+[2026-03-05T09:33:57.367+0000] {transport.py:1909} INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+[2026-03-05T09:33:57.452+0000] {transport.py:1909} INFO - Authentication (password) successful!
+[2026-03-05T09:33:57.771+0000] {sftp.py:169} INFO - [chan 0] Opened sftp connection (server version 3)
+[2026-03-05T09:33:57.772+0000] {sftp.py:47} INFO - Successfully connected to sftp-source
+[2026-03-05T09:33:57.775+0000] {base.py:84} INFO - Using connection ID 'sftp_target_conn' for task execution.
+[2026-03-05T09:33:57.775+0000] {sftp.py:35} INFO - Connecting to SFTP server sftp-target:22 as targetuser
+[2026-03-05T09:33:57.805+0000] {transport.py:1909} INFO - Connected (version 2.0, client OpenSSH_8.4p1)
+[2026-03-05T09:33:57.892+0000] {transport.py:1909} INFO - Authentication (password) successful!
+[2026-03-05T09:33:58.200+0000] {sftp.py:169} INFO - [chan 0] Opened sftp connection (server version 3)
+[2026-03-05T09:33:58.201+0000] {sftp.py:47} INFO - Successfully connected to sftp-target
+[2026-03-05T09:33:58.201+0000] {extensible_transfer.py:77} INFO - Listing files in source prefix: /upload
+[2026-03-05T09:33:58.206+0000] {extensible_transfer.py:79} INFO - Found 1 files in source.
+[2026-03-05T09:33:58.206+0000] {extensible_transfer.py:119} INFO - Transferring upload/test_02.txt -> upload/test_02.txt
+[2026-03-05T09:33:58.207+0000] {sftp.py:136} INFO - Writing stream to /upload/test_02.txt
+[2026-03-05T09:33:58.210+0000] {sftp.py:144} INFO - Finished writing to /upload/test_02.txt
+[2026-03-05T09:33:58.210+0000] {extensible_transfer.py:130} INFO - Successfully transferred. Deleting source file: upload/test_02.txt
+[2026-03-05T09:33:58.210+0000] {sftp.py:105} INFO - Deleting file /upload/test_02.txt from source
+[2026-03-05T09:33:58.211+0000] {extensible_transfer.py:138} INFO - Transfer complete. Synced and deleted: 1, Skipped: 0
+[2026-03-05T09:33:58.211+0000] {sftp.py:169} INFO - [chan 0] sftp session closed.
+[2026-03-05T09:33:58.211+0000] {sftp.py:57} INFO - Disconnected from sftp-target
+[2026-03-05T09:33:58.211+0000] {sftp.py:169} INFO - [chan 0] sftp session closed.
+[2026-03-05T09:33:58.211+0000] {sftp.py:57} INFO - Disconnected from sftp-source
+[2026-03-05T09:33:58.211+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-05T09:33:58.215+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=sftp_to_sftp_sync, task_id=sync_sftp_directories, run_id=manual__2026-03-05T09:33:57.014584+00:00, execution_date=20260305T093357, start_date=20260305T093357, end_date=20260305T093358
+[2026-03-05T09:33:58.223+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-05T09:33:58.229+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-05T09:33:58.230+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

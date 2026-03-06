@@ -1,0 +1,42 @@
+{"timestamp":"2026-03-05T10:47:21.122835Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-05T10:47:21.123351Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sftp_sync_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-05T10:47:21.199067Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-05T10:47:21.200442Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-05T10:47:21.200515Z","level":"info","event":"Current task name:sync_sftp_directories","logger":"task.stdout"}
+{"timestamp":"2026-03-05T10:47:21.200630Z","level":"info","event":"Dag name:sftp_to_sftp_sync","logger":"task.stdout"}
+{"timestamp":"2026-03-05T10:47:21.198954Z","level":"info","event":"Starting transfer from sftp_source_conn to sftp_target_conn","logger":"src.operators.extensible_transfer","filename":"extensible_transfer.py","lineno":68}
+{"timestamp":"2026-03-05T10:47:21.208564Z","level":"info","event":"Connecting to SFTP server sftp-source:22 as sourceuser","logger":"src.storage.sftp","filename":"sftp.py","lineno":35}
+{"timestamp":"2026-03-05T10:47:21.247070Z","level":"info","event":"Connected (version 2.0, client OpenSSH_8.4p1)","logger":"paramiko.transport","filename":"transport.py","lineno":1944}
+{"timestamp":"2026-03-05T10:47:21.338465Z","level":"info","event":"Authentication (password) successful!","logger":"paramiko.transport","filename":"transport.py","lineno":1944}
+{"timestamp":"2026-03-05T10:47:21.662489Z","level":"info","event":"[chan 0] Opened sftp connection (server version 3)","logger":"paramiko.transport.sftp","filename":"sftp.py","lineno":169}
+{"timestamp":"2026-03-05T10:47:21.662576Z","level":"info","event":"Successfully connected to sftp-source","logger":"src.storage.sftp","filename":"sftp.py","lineno":47}
+{"timestamp":"2026-03-05T10:47:21.667296Z","level":"info","event":"Connecting to SFTP server sftp-target:22 as targetuser","logger":"src.storage.sftp","filename":"sftp.py","lineno":35}
+{"timestamp":"2026-03-05T10:47:21.700743Z","level":"info","event":"Connected (version 2.0, client OpenSSH_8.4p1)","logger":"paramiko.transport","filename":"transport.py","lineno":1944}
+{"timestamp":"2026-03-05T10:47:21.782301Z","level":"info","event":"Authentication (password) successful!","logger":"paramiko.transport","filename":"transport.py","lineno":1944}
+{"timestamp":"2026-03-05T10:47:22.100149Z","level":"info","event":"[chan 0] Opened sftp connection (server version 3)","logger":"paramiko.transport.sftp","filename":"sftp.py","lineno":169}
+{"timestamp":"2026-03-05T10:47:22.100237Z","level":"info","event":"Successfully connected to sftp-target","logger":"src.storage.sftp","filename":"sftp.py","lineno":47}
+{"timestamp":"2026-03-05T10:47:22.100269Z","level":"info","event":"Listing files in source prefix: /upload","logger":"src.operators.extensible_transfer","filename":"extensible_transfer.py","lineno":77}
+{"timestamp":"2026-03-05T10:47:22.105368Z","level":"info","event":"Found 3 files in source.","logger":"src.operators.extensible_transfer","filename":"extensible_transfer.py","lineno":79}
+{"timestamp":"2026-03-05T10:47:22.105912Z","level":"info","event":"Transferring upload/test_01.txt -> upload/test_01.txt","logger":"src.operators.extensible_transfer","filename":"extensible_transfer.py","lineno":119}
+{"timestamp":"2026-03-05T10:47:22.107194Z","level":"info","event":"Writing stream to /upload/test_01.txt","logger":"src.storage.sftp","filename":"sftp.py","lineno":136}
+{"timestamp":"2026-03-05T10:47:22.110164Z","level":"info","event":"Finished writing to /upload/test_01.txt","logger":"src.storage.sftp","filename":"sftp.py","lineno":144}
+{"timestamp":"2026-03-05T10:47:22.110469Z","level":"info","event":"Successfully transferred. Deleting source file: upload/test_01.txt","logger":"src.operators.extensible_transfer","filename":"extensible_transfer.py","lineno":130}
+{"timestamp":"2026-03-05T10:47:22.110503Z","level":"info","event":"Deleting file /upload/test_01.txt from source","logger":"src.storage.sftp","filename":"sftp.py","lineno":105}
+{"timestamp":"2026-03-05T10:47:22.111354Z","level":"info","event":"Transferring upload/test_02.txt -> upload/test_02.txt","logger":"src.operators.extensible_transfer","filename":"extensible_transfer.py","lineno":119}
+{"timestamp":"2026-03-05T10:47:22.112246Z","level":"info","event":"Writing stream to /upload/test_02.txt","logger":"src.storage.sftp","filename":"sftp.py","lineno":136}
+{"timestamp":"2026-03-05T10:47:22.115477Z","level":"info","event":"Finished writing to /upload/test_02.txt","logger":"src.storage.sftp","filename":"sftp.py","lineno":144}
+{"timestamp":"2026-03-05T10:47:22.115725Z","level":"info","event":"Successfully transferred. Deleting source file: upload/test_02.txt","logger":"src.operators.extensible_transfer","filename":"extensible_transfer.py","lineno":130}
+{"timestamp":"2026-03-05T10:47:22.115762Z","level":"info","event":"Deleting file /upload/test_02.txt from source","logger":"src.storage.sftp","filename":"sftp.py","lineno":105}
+{"timestamp":"2026-03-05T10:47:22.116651Z","level":"info","event":"Transferring upload/test_03.txt -> upload/test_03.txt","logger":"src.operators.extensible_transfer","filename":"extensible_transfer.py","lineno":119}
+{"timestamp":"2026-03-05T10:47:22.117282Z","level":"info","event":"Writing stream to /upload/test_03.txt","logger":"src.storage.sftp","filename":"sftp.py","lineno":136}
+{"timestamp":"2026-03-05T10:47:22.119169Z","level":"info","event":"Finished writing to /upload/test_03.txt","logger":"src.storage.sftp","filename":"sftp.py","lineno":144}
+{"timestamp":"2026-03-05T10:47:22.119380Z","level":"info","event":"Successfully transferred. Deleting source file: upload/test_03.txt","logger":"src.operators.extensible_transfer","filename":"extensible_transfer.py","lineno":130}
+{"timestamp":"2026-03-05T10:47:22.119414Z","level":"info","event":"Deleting file /upload/test_03.txt from source","logger":"src.storage.sftp","filename":"sftp.py","lineno":105}
+{"timestamp":"2026-03-05T10:47:22.119856Z","level":"info","event":"Transfer complete. Synced and deleted: 3, Skipped: 0","logger":"src.operators.extensible_transfer","filename":"extensible_transfer.py","lineno":138}
+{"timestamp":"2026-03-05T10:47:22.119907Z","level":"info","event":"[chan 0] sftp session closed.","logger":"paramiko.transport.sftp","filename":"sftp.py","lineno":169}
+{"timestamp":"2026-03-05T10:47:22.120007Z","level":"info","event":"Disconnected from sftp-target","logger":"src.storage.sftp","filename":"sftp.py","lineno":57}
+{"timestamp":"2026-03-05T10:47:22.120034Z","level":"info","event":"[chan 0] sftp session closed.","logger":"paramiko.transport.sftp","filename":"sftp.py","lineno":169}
+{"timestamp":"2026-03-05T10:47:22.120102Z","level":"info","event":"Disconnected from sftp-source","logger":"src.storage.sftp","filename":"sftp.py","lineno":57}
+{"timestamp":"2026-03-05T10:47:22.128341Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-05T10:47:22.128437Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-05T10:47:22.128511Z","level":"info","event":"Task operator:<Task(ExtensibleTransferOperator): sync_sftp_directories>","logger":"task.stdout"}
